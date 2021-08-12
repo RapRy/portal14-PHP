@@ -1,0 +1,14 @@
+{
+  "name": "powerland",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwindBuild": "npx tailwind -i ./src/tailwind.css -c ./src/tailwind.config.js -o ./dist/style/main.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
